@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gastc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <meta name="description" content="Neem contact op en werk mee aan een gezonder aanbod voor nachtwerkers: feedback, samenwerking en contactinformatie.">
+  <meta name="keywords" content="contact,samenwerken,nachtdienst,gezond eten,feedback">
+  <title>Contact & Samenwerking</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+</head>
+<body class="contact-page">
+
+<header>
+  <a href="index.html" class="logo">
+    <img src="img/Screenshot 2025-10-08 131408.png" alt="Logo" title="Gezond Eten logo">
+  </a>
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="waarom.html">Waarom Gezond Eten?</a></li>
+      <li><a href="alternatieven.html">Gezonde Alternatieven</a></li>
+      <li><a href="tips.html">Tips voor Energie & Focus</a></li>
+      <li><a href="waar.html">Waar eten?</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<article class="hero">
+  <h2>Samen maken we nachtdiensten gezonder </h2>
+  <p>We willen dit platform zo praktisch en nuttig mogelijk maken voor iedereen die 's nachts werkt. 
+     Daarvoor hebben we jouw input nodig — deel je ideeën, locaties of feedback!</p>
+</article>
+
+<main class="content">
+    <h2> Contactformulier</h2>
+
+  <!-- CONTACTFORMULIER -->
+  <article class="contact-section">
+    <form method="post" action="https://next-app-router-playground-kohl.vercel.app/api/contact" class="contact-form">
+      <fieldset>
+        <legend>Contactgegevens</legend>
+        
+        <label for="title">Aanhef *</label>
+        <select id="title" name="title" required>
+          <option value="">Kies een aanhef</option>
+          <option value="dhr">Dhr.</option>
+          <option value="mevr">Mevr.</option>
+          <option value="anders">Anders</option>
+        </select>
+        
+        <label for="name">Naam *</label>
+        <input id="name" type="text" name="name" placeholder="Uw volledige naam" required>
+        
+        <label for="email">E-mailadres *</label>
+        <input id="email" type="email" name="email" placeholder="Uw e-mailadres" required>
+        
+        <label for="phone">Telefoonnummer</label>
+        <input id="phone" type="tel" name="phone" placeholder="Uw telefoonnummer (optioneel)">
+        
+        <label for="message">Vraag/verzoek *</label>
+        <textarea id="message" name="message" rows="6" placeholder="Uw vraag of verzoek (feedback, nieuwe locaties, tips...)" required></textarea>
+        
+        <input type="submit" value="Verstuur" class="submit-btn">
+      </fieldset>
+    </form>
+  </article>
+  <p>Laat hieronder een bericht achter — of je nu feedback hebt, 
+    een gezonde locatie wilt tippen of gewoon hallo wilt zeggen.</p>
+
+  <!-- SAMENWERKING -->
+  <aside class="collaboration-section">
+    <h2> Samenwerken</h2>
+    <p>Werk je bij een organisatie, bedrijf of catering die nachtwerkers ondersteunt?  
+       We staan open voor samenwerkingen om het aanbod gezonder en toegankelijker te maken.  
+       Samen zorgen we voor meer energie, focus en welzijn tijdens de nachtdienst.</p>
+
+    <div class="contact-info">
+      <h3> Contactinformatie</h3>
+      <ul>
+        <li><strong>E-mail:</strong> <a href="mailto:info@gezondeten.nl">info@gezondeten.nl</a></li>
+        <li><strong>Instagram:</strong> <a href="#">@gezondeten_nachtwerk</a></li>
+        <li><strong>LinkedIn:</strong> <a href="#">Gezond Eten - Nachtwerk</a></li>
+      </ul>
+    </div>
+
+    <a href="mailto:info@gezondeten.nl" class="cta-button">Neem contact op</a>
+  </aside>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Gezond Eten | Alle rechten voorbehouden</p>
+</footer>
+<div class="cookie-banner" role="region" aria-label="Cookies">
+  <div class="container">
+    <p>We gebruiken cookies voor basisfunctionaliteit. Door verder te gaan accepteer je cookies.</p>
+    <button type="button">OK</button>
+  </div>
+</div>
+
+</body>
+</html>

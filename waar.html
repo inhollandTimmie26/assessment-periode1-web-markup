@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gastc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <meta name="description" content="Waar kun je ‘s nachts gezond eten? Kaart, tips en aanbevelingen om snel gezonde opties te vinden.">
+  <meta name="keywords" content="waar eten,nachtdienst,gezonde locaties,kaart,tips">
+  <title>Waar eten?</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+</head>
+<body>
+<header>
+  <a href="index.html" class="logo">
+    <img src="img/Screenshot 2025-10-08 131408.png" alt="Logo" title="Gezond Eten logo">
+  </a>
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="waarom.html">Waarom Gezond Eten?</a></li>
+      <li><a href="alternatieven.html">Gezonde Alternatieven</a></li>
+      <li><a href="tips.html">Tips voor Energie & Focus</a></li>
+      <li><a href="waar.html" class="active">Waar eten?</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Hier kun je &lsquo;s nachts gezond(er) eten</h2>
+  <p>Na 22:00 gezonde opties vinden is lastig, maar ze zijn er!  
+     Gebruik onze kaart en tips om jouw gezonde keuze te vinden — waar en wanneer jij werkt.</p>
+</section>
+
+<main class="content">
+
+  <!-- LOCATIES -->
+  <article class="alt-section">
+    <h2>Soorten locaties</h2>
+    <ul class="location-list">
+      <li><strong> Supermarkten:</strong> vaak open tot laat (AH To Go, Spar) met fruit, wraps, salades en smoothies.</li>
+      <li>Tankstations sommige hebben gezonde schappen met noten, yoghurt, water en volkoren snacks.</li>
+      <li><strong> Restaurants & Broodjeszaken:</strong> denk aan sushibars, broodjeszaken of mediterrane keukens met gezonde opties.</li>
+      <li><strong> Bedrijfsrestaurants:</strong> sommige ziekenhuizen of fabrieken hebben 24/7 koelkasten met verse maaltijden.</li>
+    </ul>
+  </article>
+
+  <!-- INTERACTIEVE MAP -->
+  <aside class="map-section alt-section">
+    <h2>- Zoek & Filter</h2>
+    <p>Gebruik de filters om locaties te vinden die bij jouw voorkeur passen — snel, gezond of vegetarisch.</p>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">Alle</button>
+      <button class="filter-btn" data-filter="supermarkt">Supermarkten</button>
+      <button class="filter-btn" data-filter="restaurant">Restaurants</button>
+      <button class="filter-btn" data-filter="tankstation">Tankstations</button>
+    </div>
+
+    <!-- Interactive Map with Amsterdam background -->
+    <div class="faux-map amsterdam-map">
+      <div class="map-pin pin-1" data-category="supermarkt">AH To Go</div>
+      <div class="map-pin pin-2" data-category="restaurant">Sushi Bar</div>
+      <div class="map-pin pin-3" data-category="tankstation">Tankstation XYZ</div>
+      <div class="map-pin pin-4" data-category="restaurant">Mediterranean Café</div>
+    </div>
+    <button class="map-btn">Bekijk locaties in mijn buurt</button>
+  </aside>
+
+  <!-- TOP AANBEVELINGEN -->
+  <section class="alt-section recommendations">
+    <h2> Top 5 Gezonde Nachtplekken (Nederland)</h2>
+    <ol>
+      <li><strong>1. AH To Go (landelijk):</strong> wraps, fruit en smoothies — open tot laat op veel stations.</li>
+      <li><strong>2. LEON (Amsterdam & Utrecht):</strong> natuurlijke fastfood, met focus op gezonde ingrediënten.</li>
+      <li><strong>3. Shell Select Stations:</strong> gezonde corner met salades, fruitcups en notenrepen.</li>
+      <li><strong>4. Poké Perfect:</strong> lichte bowls met veel groenten en eiwitten, vaak tot 23:00 open.</li>
+      <li><strong>5. Subway:</strong> volkoren broodjes met veel groente en magere vleesopties.</li>
+    </ol>
+  </section>
+
+  <!-- EXTRA TIPS -->
+  <section class="alt-section">
+    <h2> Tips voor onderweg</h2>
+    <ul>
+      <li>Neem een kleine koelbox mee in je auto of tas voor verse snacks.</li>
+      <li>Kies voor water of bruiswater i.p.v. energiedrankjes.</li>
+      <li>Controleer openingstijden vooraf met Google Maps of TooGoodToGo.</li>
+      <li>Gebruik apps als <strong>TooGoodToGo</strong> of <strong>Thuisbezorgd</strong> om gezonde maaltijden te scoren.</li>
+    </ul>
+  </section>
+
+  <!-- CTA -->
+  <aside class="alt-section motivation">
+    <h2>Maak van elke shift een gezonde shift </h2>
+    <p>Je hoeft niet perfect te eten, maar bewust kiezen maakt een wereld van verschil.  
+       De juiste maaltijd houdt je langer scherp, fitter &eacute;n tevredener.</p>
+    <a href="alternatieven.html" class="cta-button">Bekijk Gezonde Alternatieven</a>
+  </aside>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Gezond Eten | Alle rechten voorbehouden</p>
+</footer>
+  <div class="cookie-banner" role="region" aria-label="Cookies">
+    <div class="container">
+      <p>We gebruiken cookies voor basisfunctionaliteit. Door verder te gaan accepteer je cookies.</p>
+      <button type="button">OK</button>
+    </div>
+  </div>
+
+<script>
+// Map filter functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const mapPins = document.querySelectorAll('.map-pin');
+  
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      // Remove active class from all buttons
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      // Add active class to clicked button
+      this.classList.add('active');
+      
+      const filter = this.getAttribute('data-filter');
+      
+      // Show/hide map pins based on filter
+      mapPins.forEach(pin => {
+        const category = pin.getAttribute('data-category');
+        if (filter === 'all' || category === filter) {
+          pin.classList.remove('hidden');
+        } else {
+          pin.classList.add('hidden');
+        }
+      });
+    });
+  });
+});
+</script>
+</body>
+</html>
