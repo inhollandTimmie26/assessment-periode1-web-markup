@@ -718,6 +718,7 @@ body.contact-page nav a.active {
   transition: all 0.3s ease;
   font-family: inherit;
   resize: vertical;
+  border-color: #cfd8dc;
 }
 
 .contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus {
