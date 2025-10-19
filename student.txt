@@ -1,5 +1,5 @@
-Student name: Gastc
-Student number: 12345678
-Student class: Web Development
+Student name: Tim Rogier
+Student number: 745849
+Student class: HAINF25VT1B
 GitHub Repository: https://github.com/inhollandTimmie26/assessment-periode1-web-markup
 GitHub Pages URL: https://inhollandtimmie26.github.io/assessment-periode1-web-markup
