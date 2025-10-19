@@ -5,12 +5,13 @@
 }
 
 :root {
-  --green-light: #62A87C;
+  --green-light: #4C8A66;
   --green-mid: #40592B;
   --green-dark: #12664F;
   --white: #FFFFFF;
   --dark: #1E1E1E;
 }
+
 .cactus-classical-serif-regular {
   font-family: "Cactus Classical Serif", serif;
   font-weight: 400;
