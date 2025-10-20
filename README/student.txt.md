@@ -1,7 +1,5 @@
-# assessment-periode1-web-markup
-opdracht voor web markup website
-Student name: your name 
-Student number: your student number
-Student class: your class
+Student name: Tim Rogier
+Student number: 745849
+Student class: HAINF25VT1B
 GitHub Repository: https://github.com/inhollandTimmie26/assessment-periode1-web-markup
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://inhollandtimmie26.github.io/assessment-periode1-web-markup/
