@@ -120,34 +120,5 @@
       <button type="button">OK</button>
     </div>
   </div>
-
-<script>
-// Map filter functionality
-document.addEventListener('DOMContentLoaded', function() {
-  const filterButtons = document.querySelectorAll('.filter-btn');
-  const mapPins = document.querySelectorAll('.map-pin');
-  
-  filterButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      // Remove active class from all buttons
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      // Add active class to clicked button
-      this.classList.add('active');
-      
-      const filter = this.getAttribute('data-filter');
-      
-      // Show/hide map pins based on filter
-      mapPins.forEach(pin => {
-        const category = pin.getAttribute('data-category');
-        if (filter === 'all' || category === filter) {
-          pin.classList.remove('hidden');
-        } else {
-          pin.classList.add('hidden');
-        }
-      });
-    });
-  });
-});
-</script>
 </body>
 </html>
